@@ -7,7 +7,7 @@ public class Zoo {
 
         Bird bird1 = new Bird(3, "female", 60);
 
-        Fish fish1 = new Fish(5,"male", 100 );
+        Fish fish1 = new Fish(5, "male", 100);
 
         Chicken chicken1 = new Chicken(1, "female", 100);
         Animal chicken2 = new Chicken(1, "female", 100);
@@ -24,7 +24,6 @@ public class Zoo {
     public static void moveAnimals(Animal animal) {
         animal.move();
     }
-
 
 
 }
